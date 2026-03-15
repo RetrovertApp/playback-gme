@@ -1,0 +1,39 @@
+This plugin's integration code (gme_plugin.c and CMakeLists.txt) is
+licensed under the MIT License. See the top-level LICENSE file.
+
+Third-party dependencies:
+=========================
+
+Game_Music_Emu (libgme) 0.6.4
+License: LGPL-2.1-or-later (library); some components GPL-2.0
+Source: https://bitknit.github.io/game-music-emu/
+
+Game_Music_Emu library copyright (C) 2003-2009 Shay Green.
+SNES SPC DSP emulator (C) 2007 Shay Green.
+
+--
+
+Game_Music_Emu is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public License as
+published by the Free Software Foundation; either version 2.1 of the
+License, or (at your option) any later version.
+
+Game_Music_Emu is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this module; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+
+--
+
+Note: Some emulator cores within Game_Music_Emu are licensed under GPL-2.0
+rather than LGPL-2.1. See the individual source files for details.
+
+The full text of the LGPL-2.1 can be found at:
+https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+The full text of the GPL-2.0 can be found at:
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
