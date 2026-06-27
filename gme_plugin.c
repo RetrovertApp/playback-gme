@@ -442,9 +442,19 @@ static RVPlaybackPlugin g_gme_plugin = {
     gme_plugin_metadata,
     gme_plugin_static_init,
     nullptr, // settings_updated
-    nullptr, // get_tracker_info (not a tracker format)
-    nullptr, // get_pattern_cell
-    nullptr, // get_pattern_num_rows
+    nullptr, // static_destroy
+
+    // Visualization: none (caps = 0; pure decoder, no pattern grid or scope).
+    nullptr, // get_structure
+    nullptr, // get_columns
+    nullptr, // get_pattern_channels
+    nullptr, // get_scope_channels
+    nullptr, // get_position
+    nullptr, // get_channel_rows
+    nullptr, // get_cells
+    nullptr, // set_scope_enabled
+    nullptr, // get_scope_samples
+    nullptr, // get_vu
 };
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
