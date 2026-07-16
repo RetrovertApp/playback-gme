@@ -12,7 +12,7 @@ jobs:
           - os: ubuntu-latest
             cmake_flags: ""
           - os: windows-latest
-            cmake_flags: ""
+            cmake_flags: "-DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++"
           - os: macos-latest
             cmake_flags: ""
     runs-on: ${{ matrix.os }}
